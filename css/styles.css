@@ -799,7 +799,7 @@ p {
     color: currentColor;
 }
 
-.overlay-wrapper {
+.portfolio-card-thumb {
     height: 294px;
     overflow: hidden;
 }
