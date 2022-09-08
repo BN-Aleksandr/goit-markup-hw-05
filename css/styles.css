@@ -212,6 +212,10 @@ p {
     color: var(--accent-color);
 }
 
+.nav-list-link.active {
+    color: var(--accent-color);
+}
+
 .active::after {
     content: '';
     position: absolute;
@@ -221,7 +225,6 @@ p {
     display: inline-block;
     width: 100%;
     height: 4px;
-
     background-color: var(--accent-color);
     border-radius: 2px;
 }
