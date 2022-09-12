@@ -33,7 +33,11 @@
     --transition-parameters: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Global styles start */
+/**
+  ============================
+   GLOBAL STYLES start
+  ============================
+*/
 
 
 .page {
@@ -149,9 +153,18 @@ p {
     fill: currentColor;
 }
 
-/* Global styles end */
+/**
+  ============================
+   GLOBAL STYLES end
+  ============================
+*/
 
 
+/**
+  ============================
+   MAIN start
+  ============================
+*/
 
 /* Header start */
 .header {
@@ -620,11 +633,15 @@ p {
     background-color: var(--accent-color);
 }
 
-/* Footer end */
+/**
+  ============================
+   MAIN end
+  ============================
+*/
 
 /**
   ============================
-   Modal  START
+   MODAL  start
   ============================
 */
 
@@ -683,6 +700,7 @@ p {
     width: 30px;
     height: 30px;
     color: var(--text-color-full-black);
+    background: none;
 
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
@@ -808,7 +826,7 @@ p {
     display: flex;
     align-items: center;
     padding: 24px;
-    height: 294px;
+    height: 100%;
 
     background-color: var(--bg-overlay-cl);
     overflow: auto;
